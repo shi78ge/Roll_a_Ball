@@ -2,7 +2,7 @@
 
 M5Stackで遊ぶRoll a Ballゲームです。
 M5Core2でのみ動作確認しています。
-IMU6886搭載の他機種でも(ソースをいじれば)動作すると思います。
+MPU6886搭載の他機種でも(ソースをいじれば)動作すると思います。
 
 
 Create IMU6886_offset_corr_BT.ino
@@ -24,3 +24,9 @@ Bluetoohシリアルが使えます。
 
 あまり速く動かすと、ボールがステージにめり込んで消えてしまいます…
 ボールが消えたらキーボードの"r"を押してリスタートしてください（また初めから）
+
+
+## Reference
+https://fabterrace.site/2021/04/13/unity%E3%81%A8arduino%E3%81%A7%E7%B0%A1%E5%8D%98%E3%81%AA%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%92%E4%BD%9C%E6%88%90%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F%E3%80%82/
+
+https://github.com/m5stack/M5Core2/tree/master/examples/Basics/mpu6886
